@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(6, 101, 179);
+}
+
+h1{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 3.5em;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;   
+}
+
+.container{
+    width: 50%;
+    margin-top: 2.5%;
+    margin-left: 25%;
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgba(204, 195, 195, 0.555);
+}
+
+#task, #btn, #list{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#task{
+    width: 35%;
+    height: 3.5em;
+    margin-top: 1%;
+    margin-left: 25%;
+    border-radius: 10px 0px 0px 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#btn{
+    width: 15%;
+    margin-top: 2%;
+    height: 3.9em;
+    margin-left: -0.3%;
+    border-radius: 0px 10px 10px 0px;
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(111, 195, 221);
+}
+
+#list{
+    width: 60.8em;
+    margin-left: -2%;
+    align-content: center;
+    font-size: 18px;
+    align-items: center;
+}
+
+#listitem{
+    width: 65%;
+    height: 10%;
+    border: 1px solid whitesmoke;
+    text-indent: 1%;
+}
+
+#dltbtn{
+    background-color: coral;
+    margin-left: 70%;
+    width: 30%;
+    height: 3.5em;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
